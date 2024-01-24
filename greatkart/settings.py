@@ -131,3 +131,15 @@ STATIC_ROOT=BASE_DIR/'static'
 STATICFILES_DIRS =[
     'greatkart/static'
 ]
+from django.contrib.messages import constants as messages
+
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger',
+   
+}
+#smptp configurations
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'mikuacharya3@gmail.com'
+EMAIL_HOST_PASSWORD = 'xnhd bjkc rtkc tisd'
+EMAIL_USE_TLS = True
